@@ -1,0 +1,20 @@
+/* 
+ * Interactive Pricing 
+ * see style-guide.md 
+ */
+
+:root {
+    --softCyan: hsl(174,77,80);
+    --strongCyan: hsl(174,86,45);
+    --lightGrayRed: hsl(14, 92%, 95%);
+    --appBackgroundColor: yellow;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope'; /* XX add the sans-serif???? */
+}
+body {
+    background-color: var(--appBackGroundColor);
+}
